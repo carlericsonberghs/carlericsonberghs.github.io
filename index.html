@@ -11,6 +11,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+        <!-- Initialisera dataLayer -->
+        <script>
+            window.dataLayer = window.dataLayer || [];
+        </script>
+        
+        <!-- Analytics Script (ladda före sidinnehåll) -->
+        <script src="js/analytics.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Web Analytics Demo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" id="home-link">Hem</a></li>
+                    <li><a href="#" id="products-link">Produkter</a></li>
+                    <li><a href="#" id="about-link">Om oss</a></li>
+                    <li><a href="#" id="contact-link">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
