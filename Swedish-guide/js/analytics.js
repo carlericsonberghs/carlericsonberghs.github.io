@@ -1,4 +1,4 @@
-javascript
+
 // dataLayer hjälpfunktion
 function pushToDataLayer(event, data) {
     window.dataLayer.push({
